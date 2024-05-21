@@ -2,11 +2,11 @@
 
 // eslint-disable-next-line no-unused-vars
 const config = {
-  style: 'mapbox://styles/kmunoz/clr7htm0x013401qu6sjycz5t',
+  style: 'mapbox://styles/kmunoz/clvmr4083049s01phdv9m8n4v',
   accessToken:
     'pk.eyJ1Ijoia211bm96IiwiYSI6ImNsbHdxemd5NTF3Z3Qza3FqZndrc2hjeXgifQ.3UITue1v6QIP9-AISabmag',
   CSV: './Sample_Data.csv',
-  center: [-71.020537, -33.342419],
+  center: [-114.720000, 42.170000],
   zoom: 8.6,
   title: 'Central Chile',
   description:
