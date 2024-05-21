@@ -1,3 +1,6 @@
+/* global config csv2geojson turf Assembly $ */
+'use strict';
+
 mapboxgl.accessToken = config.accessToken;
 const columnHeaders = config.sideBarInfo;
 
@@ -24,18 +27,12 @@ function flyToLocation(currentFeature) {
 
 function createPopup(currentFeature) {
   const popups = document.getElementsByClassName('mapboxgl-popup');
+  /** Check if there is already a popup on the map and if so, remove it */
   if (popups[0]) popups[0].remove();
-
-  const additionalProperty1 = currentFeature.properties['Type'];
-  const additionalProperty2 = currentFeature.properties['type'];
-  // Add more properties as needed
-
   new mapboxgl.Popup({ closeOnClick: true })
-      .setLngLat(currentFeature.geometry.coordinates)
-      .setHTML('<h4>' + currentFeature.properties[config.popupInfo] + '</h4>'
-               + '<p>' + Longitude + '</p>'
-               + '<p>' + additionalProperty2 + '</p>')
-      .addTo(map);
+    .setLngLat(currentFeature.geometry.coordinates)
+    .setHTML('<h3>' + currentFeature.properties[config.popupInfo] + '</h3>')
+    .addTo(map);
 }
 
 function buildLocationList(locationData) {
@@ -57,14 +54,14 @@ function buildLocationList(locationData) {
     link.className = 'title';
     link.id = 'link-' + prop.id;
     link.innerHTML =
-      '<p style="">' + prop[columnHeaders[0]] + '</p>';
+      '<p style="line-height: 1.25">' + prop[columnHeaders[0]] + '</p>';
 
     /* Add details to the individual listing. */
     const details = listing.appendChild(document.createElement('div'));
     details.className = 'content';
 
     for (let i = 1; i < columnHeaders.length; i++) {
-      const div = document.createElement('div' + i);
+      const div = document.createElement('div');
       div.innerText += prop[columnHeaders[i]];
       div.className;
       details.appendChild(div);
@@ -109,7 +106,7 @@ function buildLocationList(locationData) {
 function buildDropDownList(title, listItems) {
   const filtersDiv = document.getElementById('filters');
   const mainDiv = document.createElement('div');
-  const filterTitle = document.createElement('h4');
+  const filterTitle = document.createElement('h3');
   filterTitle.innerText = title;
   filterTitle.classList.add('py12', 'txt-bold');
   mainDiv.appendChild(filterTitle);
@@ -458,8 +455,8 @@ map.on('load', () => {
             data: geojsonData,
           },
           paint: {
-            'circle-radius': 0, // size of circles
-            'circle-color': '#9A4222', // color of circles
+            'circle-radius': 5, // size of circles
+            'circle-color': '#3D2E5D', // color of circles
             'circle-stroke-color': 'white',
             'circle-stroke-width': 1,
             'circle-opacity': 0.7,
@@ -470,12 +467,12 @@ map.on('load', () => {
 
     map.on('click', 'locationData', (e) => {
       const features = map.queryRenderedFeatures(e.point, {
-        layers: ['locationData', 'Latitude'],
+        layers: ['locationData'],
       });
-      const clickedPoint = features[1].geometry.coordinates;
+      const clickedPoint = features[0].geometry.coordinates;
       flyToLocation(clickedPoint);
       sortByDistance(clickedPoint);
-      createPopup(features[1]);
+      createPopup(features[0]);
     });
 
     map.on('mouseenter', 'locationData', () => {
