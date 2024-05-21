@@ -1,0 +1,130 @@
+region,varieties,hectares
+Copiapó Valley,Moscatel De Alejandría,3.1
+Copiapó Valley,Pais,1.8
+Copiapó Valley,Tintorera,1
+Copiapó Valley,Malbec,0.8
+Copiapó Valley,Cabernet Sauvignon,0.8
+Copiapó Valley,Viognier,0.8
+Copiapó Valley,Sauvignon Blanc,0.5
+Copiapó Valley,Chardonnay,0.5
+Huasco Valley,Chardonnay,9.3
+Huasco Valley,Sauvignon Blanc,7.2
+Huasco Valley,Pinot Noir,6
+Huasco Valley,Syrah,5.3
+Huasco Valley,Merlot,3.5
+Huasco Valley,Garnacha,2.6
+Huasco Valley,País,1.9
+Huasco Valley,Malbec,1.7
+Huasco Valley,Carmenère,1.2
+Elqui Valley,Pedro Jiménez,93
+Elqui Valley,Syrah,76
+Elqui Valley,Sauvignon Blanc,64
+Elqui Valley,Pinot Noir,25
+Elqui Valley,Tintorera,22
+Elqui Valley,Moscatel,17
+Elqui Valley,Malbec,12
+Elqui Valley,Cabernet Sauvignon,11
+Limarí and Choapa,Chardonnay,780
+Limarí and Choapa,Syrah,332
+Limarí and Choapa,Pedro Jiménez,282
+Limarí and Choapa,Tintorera,215
+Limarí and Choapa,Sauvignon Blanc,196
+Limarí and Choapa,Pinot Noir,155
+Limarí and Choapa,Pinot Gris,134
+Limarí and Choapa,Moscatel De Alejandría,86
+Limarí and Choapa,Cabernet Sauvignon,83
+Aconcagua Valley,Cabernet Sauvignon,402
+Aconcagua Valley,Carmenère,219
+Aconcagua Valley,Sauvignon Blanc,202
+Aconcagua Valley,Syrah,189
+Aconcagua Valley,Chardonnay,171
+Aconcagua Valley,Pinot Noir,154
+Aconcagua Valley,Petit Verdot,53
+Aconcagua Valley,Merlot,52
+Aconcagua Valley,Malbec,51
+San Antonio Valley,Sauvignon Blanc,1008
+San Antonio Valley,Pinot Noir,527
+San Antonio Valley,Chardonnay,266
+San Antonio Valley,Syrah,82
+San Antonio Valley,Riesling,22
+San Antonio Valley,Sauvignon Gris,12
+San Antonio Valley,Gewurztraminer,6
+San Antonio Valley,Merlot,5
+Casablanca Valley,Sauvignon Blanc,2235
+Casablanca Valley,Chardonnay,1420
+Casablanca Valley,Pinot Noir,853
+Casablanca Valley,Merlot,238
+Casablanca Valley,Syrah,107
+Casablanca Valley,Gewurztraminer,46
+Casablanca Valley,Pinot Gris,39
+Casablanca Valley,Riesling,28
+Casablanca Valley,Viognier,36
+Maipo Valley,Cabernet Sauvignon,5517
+Maipo Valley,Merlot,890
+Maipo Valley,Syrah,869
+Maipo Valley,Carmenère,709
+Maipo Valley,Sauvignon Blanc,604
+Maipo Valley,Chardonnay,602
+Maipo Valley,Tintorera,454
+Cachapoal Valley,Cabernet Sauvignon,4003
+Cachapoal Valley,Carmenère,2003
+Cachapoal Valley,Merlot,1257
+Cachapoal Valley,Tintorera,907
+Cachapoal Valley,Chardonnay,787
+Cachapoal Valley,Syrah,605
+Cachapoal Valley,Sauvignon Blanc,575
+Cachapoal Valley,Malbec,224
+Colchagua Valley,Cabernet Sauvignon,11928
+Colchagua Valley,Carmenère,3657
+Colchagua Valley,Merlot,3132
+Colchagua Valley,Tintorera,2509
+Colchagua Valley,Syrah,2153
+Colchagua Valley,Chardonnay,1935
+Colchagua Valley,Sauvignon Blanc,1688
+Colchagua Valley,Malbec,867
+Colchagua Valley,Pinot Noir,412
+Colchagua Valley,Viognier,287
+Curicó Valley,Sauvignon Blanc,4570
+Curicó Valley,Cabernet Sauvignon,4461
+Curicó Valley,Merlot,2079
+Curicó Valley,Tintoreras,1788
+Curicó Valley,Chardonnay,1597
+Curicó Valley,Carmenère,1259
+Curicó Valley,Syrah,534
+Curicó Valley,Malbec,377
+Curicó Valley,Pinot Noir,363
+Maule Valley,Cabernet Sauvignon,10568
+Maule Valley,Pais,5991
+Maule Valley,Merlot,2865
+Maule Valley,Sauvignon Blanc,2726
+Maule Valley,Carmenère,2201
+Maule Valley,Chardonnay,2100
+Maule Valley,Tintoreras,1640
+Maule Valley,Syrah,1623
+Maule Valley,Carignan,726
+Maule Valley,Malbec,583
+Itata Valley,Pais,3877
+Itata Valley,Moscatel De Alejandría,3675
+Itata Valley,Cinsault,831
+Itata Valley,Cabernet Sauvignon,754
+Itata Valley,Chasselas,250
+Itata Valley,Chardonnay,211
+Itata Valley,Merlot,199
+Itata Valley,Carmenère,175
+Cautín Valley,Pinot Noir,51
+Cautín Valley,Chardonnay,32
+Cautín Valley,Sauvignon Blanc,6
+Cautín Valley,Riesling,2
+Osorno Valley,Pinot Noir,13
+Osorno Valley,Chardonnay,9
+Osorno Valley,Sauvignon Blanc,7
+Osorno Valley,Riesling,2
+Osorno Valley,Sauvignon Blanc,1
+Bío Bío and Malleco,Pinot Noir,615
+Bío Bío and Malleco,Chardonnay,417
+Bío Bío and Malleco,Pais,315
+Bío Bío and Malleco,Moscatel De Alejandría,304
+Bío Bío and Malleco,Sauvignon Blanc,301
+Bío Bío and Malleco,Riesling,100
+Bío Bío and Malleco,Gewurztraminer,61
+Bío Bío and Malleco,Cinsault,55
