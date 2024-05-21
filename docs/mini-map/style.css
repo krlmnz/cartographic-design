@@ -1,0 +1,169 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 145%;
+}
+
+#sidebarA{
+    color: white;
+}
+
+/*
+.viewport-twothirds {
+    height: auto!important;
+    
+}
+*/
+
+
+#filterResults{
+    color: black;
+    background-color: white;
+    border: solid #000000 1px;
+    vertical-align: middle;
+    font-family: 'Della Respira', serif;
+    padding: .2rem .8rem .4rem .8rem; /* top, right,bottom, left  */
+
+}
+
+
+h6 {
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
+    line-height: 100%;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+h3 {
+    font-family: 'Della Respira', serif;
+    line-height: 140%;
+    margin-top: 1rem;
+    color: #000000;
+    font-size: 1.953rem;
+}
+
+
+
+
+
+p {
+    color: #000000;
+    
+}
+
+.py12 {
+    padding-top: 0px!important;
+    padding-bottom: 1.5rem!important;
+}
+
+
+
+
+
+.theme{
+    background-color: #E2D8CC24;
+    border: solid #000000 1px;
+    
+}
+
+.select{
+    font-style: italic;
+    opacity: .7;
+}
+
+.mapboxgl-ctrl-geocoder--input {
+    padding: 6px 30px;
+    margin-left: 5px;
+}
+
+.listings .item {
+    font-size: .8rem;
+    word-wrap: break-word;
+    text-decoration: none;
+    border-bottom: solid #000000 1px;
+   
+}
+
+div1 {
+    display: block;
+    color: #00000080;
+}
+
+div2 {
+    display: block;
+}
+
+
+
+
+.listings .item a {
+    color: #e85ca9;
+}
+
+.listings .item:last-child {
+    border-bottom: none;
+}
+
+.listings .item .title {
+    display: inline-block;
+    width: 100%;
+    color: #2A395F;
+    font-weight: 800;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    border-left: 0;
+    
+}
+
+::-webkit-scrollbar-track {
+   
+    background: #00000010;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background: #e85ca9;
+}
+
+
+.clearfix {
+    display: block;
+}
+
+.clearfix::after {
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.mapboxgl-popup-content {
+    font: 400 15px/22px 'Open Sans', 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+    text-align: center;
+    padding: 5;
+    width: 180px;
+  }
+
+.mapboxgl-popup-close-button {
+    display: none;
+  }
+
+.mapboxgl-popup-content h3 {
+    color:black;
+    font-weight: 500;
+    margin: 0;
+    display: block;
+
+  }
+
+
